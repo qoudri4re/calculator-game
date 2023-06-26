@@ -1,0 +1,25 @@
+<div class="content">
+  <div class="ui container">
+    <h1>Addition Game</h1>
+    <h2>{{ question }}</h2>
+    <form action="" [formGroup]="answerForm">
+      <div class="ui action input">
+        <input
+          type="text"
+          name=""
+          id=""
+          formControlName="answer"
+          placeholder="Enter your answer"
+        />
+        <button class="ui button" (click)="validateAnswer($event)">
+          Submit
+        </button>
+      </div>
+    </form>
+    <div class="ui segment">
+      <h3>Attempts:</h3>
+      <p>Correct: {{ correctAnswers }}</p>
+      <p>Incorrect: {{ InCorrectAnswers }}</p>
+    </div>
+  </div>
+</div>

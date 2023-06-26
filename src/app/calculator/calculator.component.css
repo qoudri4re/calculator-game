@@ -1,0 +1,22 @@
+.content {
+  width: 35%;
+  margin: 10% auto;
+}
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+.ui.container {
+  margin-top: 50px;
+}
+.ui.segment {
+  margin-top: 20px;
+}
+.ui.action.input {
+  width: 60%;
+  margin: 0 auto;
+  align-self: center;
+  margin-left: 100px;
+}
